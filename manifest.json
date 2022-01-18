@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "as-playground",
+  "description": "as-playground for Chrome",
+  "version": "1.0.0",
+  "permissions": [],
+  "host_permissions": [],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://arisucool.github.io/as-playground/*",
+        "https://vc.asobistore.jp/asobistage/*",
+        "https://playervspf.channel.or.jp/embeds/*"
+      ],
+      "all_frames": true,
+      "css": [],
+      "js": ["dist/content-script.js"]
+    }
+  ]
+}
