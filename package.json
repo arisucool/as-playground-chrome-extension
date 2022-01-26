@@ -8,6 +8,7 @@
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
     "build:prod": "webpack --mode=production --node-env=production",
+    "clean": "rimraf dist/js/",
     "commit": "cz"
   },
   "private": true,
@@ -43,6 +44,7 @@
     "@types/chrome": "0.0.176",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.4",
+    "rimraf": "^3.0.2",
     "ts-loader": "^9.2.6",
     "typescript": "^4.5.4",
     "webpack": "^5.66.0",

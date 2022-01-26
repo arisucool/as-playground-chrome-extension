@@ -1,2 +1,5 @@
-dist/
+as-playground-*.zip
+dist.crx
+dist.pem
+dist/js/
 node_modules/
