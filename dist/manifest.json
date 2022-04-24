@@ -13,7 +13,8 @@
       "matches": [
         "https://arisucool.github.io/as-playground/*",
         "https://vc.asobistore.jp/asobistage/*",
-        "https://playervspf.channel.or.jp/embeds/*"
+        "https://playervspf.channel.or.jp/embeds/*",
+        "https://asobistage.asobistore.jp/*"
       ],
       "all_frames": true,
       "css": [],
